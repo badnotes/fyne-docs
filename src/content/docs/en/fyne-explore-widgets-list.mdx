@@ -1,0 +1,190 @@
+---
+title: Widget List
+description: 'Widget List'
+
+---
+
+## Standard Widgets (in `widget` package)
+
+
+### Accordion
+
+Accordion displays a list of AccordionItems. Each item is represented by a button that reveals a detailed view when tapped.
+
+<img class="widget" id="Accordion-widget" src="/images/widgets/accordion-light.png" />
+
+### Button
+
+[Button](/widget/button) widget has a text label and icon, both are optional.
+
+<img class="widget" id="Button-widget" src="/images/widgets/button-light.png" />
+
+
+### Card
+
+Card widget groups elements with a header and subheader, all are optional.
+
+<img class="widget" id="Card-widget" src="/images/widgets/card-light.png" />
+
+### Check
+
+Check widget has a text label and a checked (or unchecked) icon.
+
+<img class="widget" id="Check-widget" src="/images/widgets/check-light.png" />
+
+### Entry
+
+[Entry](/widget/entry) widget allows simple text to be input when focused.
+
+<img class="widget" id="Entry-widget" src="/images/widgets/entry-light.png" />
+<img class="widget" id="Entry-valid-widget" src="/images/widgets/entry-valid-light.png" />
+<img class="widget" id="Entry-invalid-widget" src="/images/widgets/entry-invalid-light.png" />
+
+PasswordEntry widget hides text input and adds a button to display the text.
+
+<img class="widget" id="password-widget" src="/images/widgets/password-light.png" />
+
+
+### FileIcon
+
+FileIcon provides helpful standard icons for various types of file.
+It displays the type of file as an indicator icon and shows the extension of the file type.
+
+<img class="widget" id="fileicon-widget" src="/images/widgets/fileicon-light.png" />
+
+
+### Form
+
+[Form](/widget/form) widget is two column grid where each row has a label and a widget (usually an input). The last row of the grid will contain the appropriate form control buttons if any should be shown.
+
+<img class="widget" id="form-widget" src="/images/widgets/form-light.png" />
+
+
+### Hyperlink
+
+Hyperlink widget is a text component with appropriate padding and layout. When clicked, the URL opens in your default web browser.
+
+<img class="widget" id="hyperlink-widget" src="/images/widgets/hyperlink-light.png" />
+
+### Icon
+
+Icon widget is a basic image component that load's its resource to match the theme.
+
+<img class="widget" id="icon-widget" src="/images/widgets/icon-light.png" />
+
+
+### Label
+
+[Label](/widget/label) widget is a label component with appropriate padding and layout.
+
+<img class="widget" id="label-widget" src="/images/widgets/label-light.png" />
+
+
+### Progress bar
+
+[ProgressBar](/widget/progressbar) widget creates a horizontal panel that indicates progress.
+
+<img class="widget" id="progress-widget" src="/images/widgets/progress-light.png" />
+
+
+ProgressBarInfinite widget creates a horizontal panel that indicates waiting indefinitely An infinite progress bar loops 0% -> 100% repeatedly until Stop() is called.
+
+<img class="widget" id="progressinf-widget" src="/images/widgets/progressinf-light.png" />
+
+
+### RadioGroup
+
+RadioGroup widget has a list of text labels and radio check icons next to each.
+
+<img class="widget" id="radiogroup-widget" src="/images/widgets/radiogroup-light.png" />
+
+
+### Select
+
+Select widget has a list of options, with the current one shown, and triggers an event function when clicked.
+
+<img class="widget" id="select-widget" src="/images/widgets/select-light.png" />
+
+
+### SelectEntry
+
+Select entry widget adds an editable component to the select widget.
+Users can select an option or enter their own value.
+
+<img class="widget" id="selectentry-widget" src="/images/widgets/selectentry-light.png" />
+
+### Separator
+
+Separator widget shows a dividing line between other elements.
+
+<img class="widget" id="separator-widget" src="/images/widgets/separator-light.png" />
+
+
+### Slider
+
+Slider if a widget that can slide between two fixed values.
+
+<img class="widget" id="slider-widget" src="/images/widgets/slider-light.png" />
+
+
+### TextGrid
+
+TextGrid is a monospaced grid of characters. This is designed to be used by a text editor, code preview or terminal emulator.
+
+<img class="widget" id="textgrid-widget" src="/images/widgets/textgrid-light.png" />
+
+
+### Toolbar
+
+[Toolbar](/widget/toolbar) widget creates a horizontal list of tool buttons.
+
+<img class="widget" id="toolbar-widget" src="/images/widgets/toolbar-light.png" />
+
+
+
+## Collection Widgets (in `widget` package)
+
+Collection widgets provide advanced caching functionality to provide high performance rendering of massive data. This does lead to a more complex constructor,
+but is a good balance for the outcome it enables.
+Each of these widgets uses a series of callbacks, the minimum set is defined by their constructor function, which includes the data size, the creation of template items that can be re-used and finally the function that applies data to a widget as it is about to be added to the display.
+
+### List
+
+[List](/collection/list) provides a high performance vertical scroll of many sub-items.
+
+<img class="widget" id="list-widget" src="/images/widgets/list-light.png" />
+
+### Table
+
+[Table](/collection/table) provides a high performance scrolled two dimensional display of many sub-items.
+
+<img class="widget" id="table-widget" src="/images/widgets/table-light.png" />
+
+### Tree
+
+[Tree](/collection/tree) provides a high performance vertical scroll of items that can be expanded to reveal child elements..
+
+<img class="widget" id="tree-widget" src="/images/widgets/tree-light.png" />
+
+
+## Container Widgets (in `container` package)
+
+Container widgets are like regular containers but they provide some additional functionality.
+
+### AppTabs
+
+[AppTabs](/container/apptabs) widget allows switching visible content from a list of TabItems. Each item is represented by a button at the top of the widget.
+
+<img class="widget" id="apptabs-widget" src="/images/widgets/apptabs-light.png" />
+
+### Scroll
+
+ScrollContainer defines a container that is smaller than the Content.
+
+<img class="widget" id="scroll-widget" src="/images/widgets/scroll-light.png" />
+
+### Split
+
+SplitContainer defines a container whose size is split between two children.
+
+<img class="widget" id="split-widget" src="/images/widgets/split-light.png" />
