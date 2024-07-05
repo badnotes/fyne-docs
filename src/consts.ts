@@ -11,7 +11,7 @@ export const OPEN_GRAPH = {
       'astro logo on a starry expanse of space,' +
       ' with a purple saturn-like planet floating in the right foreground'
   },
-  twitter: 'astrodotbuild'
+  twitter: 'x'
 }
 
 export const KNOWN_LANGUAGES = {
@@ -21,15 +21,15 @@ export const KNOWN_LANGUAGES = {
 } as const
 export const KNOWN_LANGUAGE_CODES = Object.values(KNOWN_LANGUAGES)
 
-export const EDIT_URL = `https://github.com/advanced-astro/astro-docs-template/tree/main`
+export const EDIT_URL = `https://github.com/badnotes/fyne-docs/tree/main`
 
-export const COMMUNITY_INVITE_URL = `https://astro.build/chat`
+export const COMMUNITY_INVITE_URL = `https://github.com/badnotes/fyne-docs`
 
 // See "Algolia" section of the README for more information.
 export const ALGOLIA = {
-  indexName: 'XXXXXXXXXX',
-  appId: 'XXXXXXXXXX',
-  apiKey: 'XXXXXXXXXX'
+  indexName: 'fyne-docs',
+  appId: 'TZC6S8RUV8',
+  apiKey: 'b5304cdbe7ed2cced201a93a9063b18d'
 }
 
 export type Sidebar = Record<
@@ -48,6 +48,7 @@ export const SIDEBAR: Sidebar = {
   en: {
     'Getting Started': [
       { text: 'Introduction', link: 'en/introduction' },
+      { text: 'Getting Started', link: 'en/fyne-started-getting-started' },
       { text: 'Creating your first Fyne app', link: 'en/fyne-started-creating-your-first-fyne-app' },
       { text: 'Run Fyne Demo', link: 'en/fyne-started-run-fyne-demo' },
       { text: 'Application and RunLoop', link: 'en/fyne-started-application-and-runloop' },

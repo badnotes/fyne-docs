@@ -1,7 +1,28 @@
 # Fyne Docs
 
-[![Build Astro site](https://github.com/advanced-astro/astro-docs-template/actions/workflows/test.yml/badge.svg)](https://github.com/advanced-astro/astro-docs-template/actions/workflows/test.yml)
-
-
 [Fyne](https://fyne.io/)
 
+An easy to learn toolkit for creating graphical apps for desktop, mobile and web.
+Code once and build native apps for all platforms and stores. 
+
+##### Quality and Design
+
+Built with the best design, test and validation procedures we aim for the highest level of standard in quality and design. All apps should be clear and simple to use and never fail to meet user expectations.
+
+
+##### Simple Development
+
+For developers with any experience level - our toolkit is designed with ease of development in mind. We want you to enjoy building great apps with Fyne!
+
+
+##### We Love Usability
+
+The Fyne framework is designed for usability at the core. Fyne widgets and layouts adapt cleanly to the user context allowing developers to focus on functionality and not user interface testing. 
+
+
+##### Easy to install
+
+Fyne apps work with a simple download - no worries about packages or dependencies. Our app explorer will help you find the latest apps, keep everything up to date and stay secure.
+
+
+[Fyne Doc](https://docs.fyne.io/)

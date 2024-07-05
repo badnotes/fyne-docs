@@ -5,8 +5,8 @@ type Props = {
 }
 const { path } = Astro.props
 const resolvedPath = `${path}`
-const url = `https://api.github.com/repos/advanced-astro/astro-docs-template/commits?path=${resolvedPath}`
-const commitsURL = `https://github.com/advanced-astro/astro-docs-template/commits/main/${resolvedPath}`
+const url = `https://api.github.com/repos/badnotes/fyne-docs/commits?path=${resolvedPath}`
+const commitsURL = `https://github.com/badnotes/fyne-docs/commits/main/${resolvedPath}`
 
 type Commit = {
   author: {
@@ -63,7 +63,8 @@ function removeDups(arr: Commit[]) {
   return [...map.values()]
 }
 
-const data = await getCommits(url)
+// const data = await getCommits(url)
+const data = [] as Commit[]
 const unique = removeDups(data)
 const recentContributors = unique.slice(0, 3) // only show avatars for the 3 most recent contributors
 const additionalContributors = unique.length - recentContributors.length // list the rest of them as # of extra contributors
