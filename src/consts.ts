@@ -8,8 +8,8 @@ export const OPEN_GRAPH = {
   image: {
     src: 'default-og-image.png',
     alt:
-      'astro logo on a starry expanse of space,' +
-      ' with a purple saturn-like planet floating in the right foreground'
+      'Cross platform GUI toolkit in Go inspired by Material Design, ' +
+      'Quality and Design, Simple Development, We Love Usability, Easy to install.'
   },
   twitter: 'x'
 }
@@ -40,10 +40,7 @@ export const SIDEBAR: Sidebar = {
   de: {
     Überschrift: [
       { text: 'Einführung', link: 'de/introduction' },
-      { text: 'Seite 2', link: 'de/page-2' },
-      { text: 'Seite 3', link: 'de/page-3' }
     ],
-    'Ein weiterer Abschnitt': [{ text: 'Seite 4', link: 'de/page-4' }]
   },
   en: {
     'Getting Started': [
