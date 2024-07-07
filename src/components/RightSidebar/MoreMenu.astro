@@ -1,5 +1,6 @@
 ---
 import ThemeToggleButton from './ThemeToggleButton'
+import GoAds from './Ads'
 import { COMMUNITY_INVITE_URL } from '../../consts'
 
 type Props = {
@@ -69,14 +70,9 @@ const showMoreSection = Boolean(COMMUNITY_INVITE_URL)
   <ThemeToggleButton client:visible />
 </div>
 <div>
-<div>
 <!-- ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-5144792726193676"
-     data-ad-slot="7966160203"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
+<div class="ads">
+  <GoAds />
 </div>
 
 <style>
@@ -85,5 +81,10 @@ const showMoreSection = Boolean(COMMUNITY_INVITE_URL)
     font: inherit;
     color: inherit;
     font-size: 1rem;
+  }
+  .ads {
+    display:inline-block;
+    width:268px;
+    height:100px
   }
 </style>
