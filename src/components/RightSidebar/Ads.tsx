@@ -9,7 +9,7 @@ export default function GoAds() {
     }, [])
     
     return (
-        <ins className="adsbygoogle"
+        <ins className="adsbygoogle" style={{display: "block"}}
         data-ad-client="ca-pub-5144792726193676"
         data-ad-slot="7966160203"
         data-ad-format="auto"

@@ -2,6 +2,7 @@
 import type { MarkdownHeading } from 'astro'
 import MoreMenu from '../RightSidebar/MoreMenu.astro'
 import TableOfContents from '../RightSidebar/TableOfContents'
+import GoAds from '../RightSidebar/Ads'
 
 type Props = {
   title: string
@@ -15,6 +16,9 @@ const { title, headings, editUrl } = Astro.props
 <article id="article" class="content">
   <section class="main-section">
     <h3 class="content-title" id="overview">{title}</h3>
+    <div class="ads">
+      <GoAds />
+    </div>
     <nav class="block sm:hidden">
       <TableOfContents client:media="(max-width: 50em)" headings={headings} />
     </nav>
@@ -48,4 +52,11 @@ const { title, headings, editUrl } = Astro.props
       display: none;
     }
   }
+
+  .ads {
+    display:inline-block;
+    width:100%;
+    height:260px
+  }
+
 </style>
